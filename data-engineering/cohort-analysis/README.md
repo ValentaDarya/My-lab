@@ -1,5 +1,12 @@
 # Cohort Analysis — Pandas Exercise
 
+## Project Objectives
+
+- Organize user activity records into cohorts based on each user's first observed activity month.
+- Calculate the number of months elapsed since cohort entry for subsequent activity records.
+- Build a cohort-by-period matrix and calculate retention ratios using Pandas.
+- Visualize cohort behavior with a retention heatmap and practice interpreting changes over time.
+
 **Source:** `26.3 Когортный анализ.ipynb`
 
 A notebook exploring cohort assignment from transaction dates and user identifiers, using Pandas and date transformations.
