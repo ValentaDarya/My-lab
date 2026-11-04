@@ -26,4 +26,4 @@ Some original notebooks rely on external datasets or Google Colab paths that are
 - `data-science/`: text analytics, predictive modeling and mathematical exercises
 - `data-engineering/`: analytical data processing and cohort analysis
 
-**Current status:** Documentation has been published; the eight curated notebook files have not yet been uploaded to GitHub.
+**Current status:** Eight original notebooks are published in their project folders. Reproducibility checks are still pending.
