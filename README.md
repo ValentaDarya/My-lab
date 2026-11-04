@@ -27,3 +27,7 @@ Some original notebooks rely on external datasets or Google Colab paths that are
 - `data-engineering/`: analytical data processing and cohort analysis
 
 **Current status:** Eight original notebooks are published in their project folders. Reproducibility checks are still pending.
+
+## Synthetic datasets
+
+To make the exercises easier to explore, this repository includes explicitly labeled **synthetic demo CSVs** for email classification, vehicle analytics and cohort analysis. They are not the original datasets and should not be used to infer real-world model quality. The notebooks have been adapted to use local demo input paths, but a complete end-to-end execution check has not yet been performed.
