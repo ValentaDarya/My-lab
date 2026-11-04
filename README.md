@@ -1,25 +1,29 @@
 # Data & AI Lab
 
-A portfolio of hands-on projects and learning exercises in **data science, machine learning, data engineering, and analytics**.
+Hands-on portfolio of **data science, machine learning, data engineering and analytics** work.
 
-My work focuses on exploring and preparing data, building analytical workflows, and translating technical results into practical insights. This repository is being organized around original notebooks and project files, with an emphasis on reproducibility and clear documentation.
+The projects are based on original learning exercises and Jupyter notebooks. Documentation distinguishes implemented analysis from future improvements, and avoids unsupported model-performance claims.
 
-## Projects
+## Project index
 
-| Area | Description | Status |
+| Project | Focus | Notebook status |
 | --- | --- | --- |
-| [Data Science & Machine Learning](data-science/) | Data exploration, preprocessing, feature engineering, and predictive modeling exercises | Source files pending import |
-| [Data Engineering & Analytics](data-engineering/) | Data preparation, transformation, validation, and analytical workflows | Source files pending import |
+| [Email Classification](data-science/email-classification/) | Text cleaning, TF-IDF, chi-square keyword extraction, cosine similarity | Prepared for import |
+| [Vehicle ML](data-science/vehicle-ml/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Prepared for import |
+| [Cohort Analysis](data-engineering/cohort-analysis/) | Pandas-based cohort analysis | Prepared for import |
+| Mathematical Foundations | Function approximation | Prepared for import |
 
-## Technical interests
+## Toolkit
 
-Python · SQL · Pandas · NumPy · scikit-learn · Data Quality · Analytics · Machine Learning
+Python · SQL · Pandas · NumPy · scikit-learn · Jupyter · Exploratory Data Analysis · Feature Engineering · Machine Learning
 
-## Repository roadmap
+## Reproducibility notes
 
-1. Review the original notebooks, scripts, and datasets.
-2. Organize projects into clearly named folders without changing their original logic.
-3. Document the problem, dataset, methods, evaluation, and results for each project.
-4. Add reproducible environment instructions and sanitized sample data where licensing permits.
+Some original notebooks rely on external datasets or Google Colab paths that are not bundled with the source archives. These dependencies are documented rather than silently replaced. Source notebooks are being curated and imported separately.
 
-> **Note:** This repository is under active organization. Project details and results will be added after verification against the original source files.
+## Repository organization
+
+- `data-science/`: text analytics, predictive modeling and mathematical exercises
+- `data-engineering/`: analytical data processing and cohort analysis
+
+**Current status:** Documentation has been published; the eight curated notebook files have not yet been uploaded to GitHub.
