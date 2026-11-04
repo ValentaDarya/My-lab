@@ -1,4 +1,4 @@
-# Vehicle Data — Predictive Modeling Exercises
+# Machine Learning Models — Data Preparation & Predictive Analytics
 
 **Sources:** Original notebooks on data cleaning, visualization, decision trees, random forests, neural networks, and the final used-car-price assignment.
 
