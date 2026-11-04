@@ -1,11 +1,11 @@
 # Data Science & Machine Learning
 
-This section is reserved for documented data science coursework and experiments.
+Original Jupyter notebooks covering text analytics, data preparation, exploratory analysis, predictive modeling, and mathematical concepts.
 
-Planned documentation areas (to be confirmed against the original notebooks):
-- Data exploration and cleaning
-- Feature extraction and vectorization
-- Model training and evaluation
-- Prediction and comparison of approaches
+## Projects
 
-**Status:** Original notebooks and datasets have not yet been imported. Project-specific methods and results will be documented only after reviewing the source files.
+- [Email Classification](email-classification/) — text preprocessing, vectorization, and classification-related analysis
+- [Machine Learning Models](machine-learning-models/) — data cleaning, EDA, tree-based methods, neural networks, and prediction exercises
+- [Mathematical Concepts](mathematical-concepts/) — function approximation
+
+**Status:** Notebooks published. Some external datasets are missing; code has not yet been rerun.
