@@ -1,5 +1,7 @@
 # Data Engineering & Analytics
 
-This section will contain reproducible data preparation, transformation, validation and analytics exercises from the original project files.
+## Projects
 
-**Status:** Source notebooks/scripts have not yet been imported. The final structure and technology descriptions will follow the actual code.
+- [Cohort Analysis](cohort-analysis/) — Pandas-based analytical cohort processing
+
+**Status:** Original notebook published. Reproducibility checks remain pending.
