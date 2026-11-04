@@ -1,33 +1,27 @@
 # Data & AI Lab
 
-Hands-on portfolio of **data science, machine learning, data engineering and analytics** work.
+A portfolio of hands-on **data science, machine learning, text analytics and data engineering** projects built with Python and Jupyter Notebook.
 
-The projects are based on original learning exercises and Jupyter notebooks. Documentation distinguishes implemented analysis from future improvements, and avoids unsupported model-performance claims.
+## Problems These Projects Address
 
-## Project index
+The projects explore practical data problems: preparing inconsistent datasets for analysis, extracting useful information from text, comparing predictive modeling techniques, and understanding user behavior over time.
 
-| Project | Focus | Notebook status |
+| Project | Problem addressed | Approach |
 | --- | --- | --- |
-| [Email Classification](data-science/email-classification/) | Text cleaning, TF-IDF, chi-square keyword extraction, cosine similarity | Notebook available |
-| [Machine Learning Models](data-science/machine-learning-models/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Notebook available |
-| [Cohort Analysis](data-engineering/cohort-analysis/) | Pandas-based cohort analysis | Notebook available |
-| [Mathematical Concepts](data-science/mathematical-concepts/) | Function approximation | Notebook available |
+| [Email Classification](data-science/email-classification/) | How can unstructured email messages be cleaned, organized and converted into meaningful features for category analysis? | Duplicate and label-conflict detection, text normalization, TF-IDF, chi-square keyword extraction and cosine similarity |
+| [Machine Learning Models](data-science/machine-learning-models/) | How can vehicle data be prepared and explored to investigate price patterns and compare supervised learning approaches? | Missing-value treatment, outlier analysis, EDA, decision trees, random forests, neural networks and model-tuning exercises |
+| [Cohort Analysis](data-engineering/cohort-analysis/) | How can user activity be grouped by starting month to examine retention across subsequent periods? | Pandas transformations, cohort assignment, retention matrix and heatmap visualization |
+| [Mathematical Concepts](data-science/mathematical-concepts/) | How can mathematical functions and approximation methods be explored computationally? | Numerical and mathematical exercises in Jupyter Notebook |
 
 ## Toolkit
 
-Python · SQL · Pandas · NumPy · scikit-learn · Jupyter · Exploratory Data Analysis · Feature Engineering · Machine Learning
+Python · Pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Jupyter · Data Cleaning · Exploratory Data Analysis · Feature Engineering · Machine Learning
 
-## Reproducibility notes
+## Repository Structure
 
-Some original notebooks rely on external datasets or Google Colab paths that are not bundled with the source archives. These dependencies are documented rather than silently replaced. Eight curated Jupyter notebooks are available in their project directories. Notebook outputs were cleared before publication; notebooks have not been rerun.
+- [Data Science](data-science/) — text analytics, predictive modeling and mathematical concepts
+- [Data Engineering](data-engineering/) — analytical transformations and cohort analysis
 
-## Repository organization
+## Data
 
-- `data-science/`: text analytics, predictive modeling and mathematical exercises
-- `data-engineering/`: analytical data processing and cohort analysis
-
-**Current status:** Eight original notebooks are published in their project folders. Reproducibility checks are still pending.
-
-## Synthetic datasets
-
-To make the exercises easier to explore, this repository includes explicitly labeled **synthetic demo CSVs** for email classification, vehicle analytics and cohort analysis. They are not the original datasets and should not be used to infer real-world model quality. The notebooks have been adapted to use local demo input paths, but a complete end-to-end execution check has not yet been performed.
+Selected projects include **synthetic sample datasets** to demonstrate their workflows. These are clearly labeled examples, not the original datasets or evidence of real-world model performance.
