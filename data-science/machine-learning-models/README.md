@@ -1,5 +1,13 @@
 # Machine Learning Models — Data Preparation & Predictive Analytics
 
+## Project Objectives
+
+- Practice an end-to-end analytical workflow, from raw vehicle data inspection to model-oriented preparation.
+- Detect duplicates, missing values and outliers, and explore relationships between vehicle attributes and price.
+- Apply and compare decision trees, random forests and neural-network methods in supervised learning exercises.
+- Investigate feature importance and hyperparameter tuning to understand model behavior.
+- Explore vehicle price prediction as a follow-up exercise; the final notebook remains an unfinished draft.
+
 **Sources:** Original notebooks on data cleaning, visualization, decision trees, random forests, neural networks, and the final used-car-price assignment.
 
 ## Covered techniques
