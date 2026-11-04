@@ -14,3 +14,7 @@
 This notebook performs exploratory analysis and feature extraction; it does **not** establish a validated production classifier. Training and cross-validation of a baseline classifier are listed as next steps in the original notebook.
 
 The original files will be imported separately. Some notebook paths refer to Colab-specific locations.
+
+## Synthetic demo data
+
+`data/synthetic_emails.csv` contains 120 **artificial** email-like texts with `tagged_text` and `classification` columns. Run the notebook from this directory; generated Excel outputs are written to `outputs/`. Requires pandas, numpy, matplotlib, scikit-learn, openpyxl; imbalanced-learn is optional. The sample is illustrative and is not evidence of classification performance on real messages.
