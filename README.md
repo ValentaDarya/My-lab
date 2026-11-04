@@ -8,10 +8,10 @@ The projects are based on original learning exercises and Jupyter notebooks. Doc
 
 | Project | Focus | Notebook status |
 | --- | --- | --- |
-| [Email Classification](data-science/email-classification/) | Text cleaning, TF-IDF, chi-square keyword extraction, cosine similarity | Prepared for import |
-| [Vehicle ML](data-science/vehicle-ml/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Prepared for import |
-| [Cohort Analysis](data-engineering/cohort-analysis/) | Pandas-based cohort analysis | Prepared for import |
-| Mathematical Foundations | Function approximation | Prepared for import |
+| [Email Classification](data-science/email-classification/) | Text cleaning, TF-IDF, chi-square keyword extraction, cosine similarity | Notebook available |
+| [Vehicle ML](data-science/vehicle-ml/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Notebook available |
+| [Cohort Analysis](data-engineering/cohort-analysis/) | Pandas-based cohort analysis | Notebook available |
+| Mathematical Foundations | Function approximation | Notebook available |
 
 ## Toolkit
 
@@ -19,7 +19,7 @@ Python · SQL · Pandas · NumPy · scikit-learn · Jupyter · Exploratory Data 
 
 ## Reproducibility notes
 
-Some original notebooks rely on external datasets or Google Colab paths that are not bundled with the source archives. These dependencies are documented rather than silently replaced. Source notebooks are being curated and imported separately.
+Some original notebooks rely on external datasets or Google Colab paths that are not bundled with the source archives. These dependencies are documented rather than silently replaced. Eight curated Jupyter notebooks are available in their project directories. Notebook outputs were cleared before publication; notebooks have not been rerun.
 
 ## Repository organization
 
