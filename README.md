@@ -9,9 +9,9 @@ The projects are based on original learning exercises and Jupyter notebooks. Doc
 | Project | Focus | Notebook status |
 | --- | --- | --- |
 | [Email Classification](data-science/email-classification/) | Text cleaning, TF-IDF, chi-square keyword extraction, cosine similarity | Notebook available |
-| [Vehicle ML](data-science/vehicle-ml/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Notebook available |
+| [Machine Learning Models](data-science/machine-learning-models/) | Data cleaning, EDA, decision trees, random forests, neural networks and price-prediction exercises | Notebook available |
 | [Cohort Analysis](data-engineering/cohort-analysis/) | Pandas-based cohort analysis | Notebook available |
-| Mathematical Foundations | Function approximation | Notebook available |
+| [Mathematical Concepts](data-science/mathematical-concepts/) | Function approximation | Notebook available |
 
 ## Toolkit
 
