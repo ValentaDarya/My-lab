@@ -9,7 +9,7 @@ The projects explore practical data problems: preparing inconsistent datasets fo
 | Project | Problem addressed | Approach |
 | --- | --- | --- |
 | [Email Classification](data-science/email-classification/) | How can unstructured email messages be cleaned, organized and converted into meaningful features for category analysis? | Duplicate and label-conflict detection, text normalization, TF-IDF, chi-square keyword extraction and cosine similarity |
-| [Machine Learning Models](data-science/machine-learning-models/) | How can vehicle data be prepared and explored to investigate price patterns and compare supervised learning approaches? | Missing-value treatment, outlier analysis, EDA, decision trees, random forests, neural networks and model-tuning exercises |
+| [Machine Learning Models](data-science/machine-learning-models/) | How can vehicle data be prepared and explored to investigate price patterns and compare supervised learning approaches? | **Linear regression**, **multilayer perceptron (MLP)** and **decision trees**, alongside logistic regression, random forests, data preparation and model tuning |
 | [Cohort Analysis](data-engineering/cohort-analysis/) | How can user activity be grouped by starting month to examine retention across subsequent periods? | Pandas transformations, cohort assignment, retention matrix and heatmap visualization |
 | [Mathematical Concepts](data-science/mathematical-concepts/) | How can mathematical functions and approximation methods be explored computationally? | Numerical and mathematical exercises in Jupyter Notebook |
 

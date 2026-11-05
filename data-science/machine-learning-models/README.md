@@ -1,5 +1,13 @@
 # Machine Learning Models — Data Preparation & Predictive Analytics
 
+## Models Used
+
+- **Linear regression (`LinearRegression`)** — predicts the numerical price of a used car; evaluated with mean absolute error (MAE).
+- **Multilayer perceptron (`MLPClassifier`)** — a neural network that predicts the car price category.
+- **Decision tree (`DecisionTreeClassifier`)** — predicts the price category and provides predictions for the majority-voting comparison in `04_neural_networks.ipynb`.
+- **Logistic regression (`LogisticRegression`)** — provides another price-category classifier for comparison and voting.
+- **Random forest (`RandomForestClassifier`)** — explored in the separate tree and random forest notebook, `03_tree_and_random_forest.ipynb`.
+
 ## Project Objectives
 
 - Practice an end-to-end analytical workflow, from raw vehicle data inspection to model-oriented preparation.
@@ -23,11 +31,12 @@
 ## Synthetic demo data
 
 The `data/vehicles_dataset.csv` and `data/vehicles_dataset_upd.csv` files, plus `vehicles_dataset_prepared.csv`, `vehicles_dataset_old.csv` and `df_out.csv`, are **synthetically generated samples**, not the original vehicle data. They are provided to demonstrate notebook workflows; metrics computed on them must not be presented as real-world model performance. Run notebooks from this folder. The final price-prediction notebook remains a draft. Dependencies include pandas, numpy, matplotlib, seaborn, scikit-learn, scipy and missingno.
-## Linear Models and Neural Networks
+
+## Linear Regression, Multilayer Perceptron and Decision Tree
 
 [Notebook: 04_neural_networks.ipynb](04_neural_networks.ipynb) · [Original Google Colab notebook](https://colab.research.google.com/drive/1PpuWAfMuqVjAmKh3y6itBGZ6-Xn4U9aw?usp=sharing)
 
-This practical assignment explores predicting used-car prices and price categories with linear regression, logistic regression, a multilayer perceptron, and majority voting. It uses a 70/30 train/test split and evaluates predictions with MAE, accuracy, and confusion matrices.
+This practical assignment explores predicting used-car prices and price categories with **linear regression**, a **multilayer perceptron (MLP)**, a **decision tree**, logistic regression, and majority voting. It uses a 70/30 train/test split and evaluates predictions with MAE, accuracy, and confusion matrices.
 
 The Colab source was compared with the repository notebook on November 5, 2026: all 50 cells have identical source text, so a duplicate notebook was not added.
 
